@@ -1,3 +1,6 @@
+/*
+item_class_l_idからanswer_major_cdに一致するオブジェクトのanswer_format_m_cdを更新する
+*/
 var result = db.query_test.aggregate(
     [
         { $unwind: "$sections" },
